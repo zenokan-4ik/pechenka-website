@@ -42,11 +42,26 @@ const MainDesktop = () => {
                 СОЦИАЛЬНЫЕ СЕТИ
             </p>
             <div className={styles.socialwrapper}>
-                <img src={twitchicon} alt='twitch' className={styles.socialicon}/>
-                <img src={boostyicon} alt='boosty' className={styles.socialicon}/>
-                <img src={telegramicon} alt='telegram' className={styles.socialicon}/>
-                <img src={youtubeicon} alt='youtube' className={styles.socialicon}/>
-                <img src={vkicon} alt='vk' className={styles.socialicon}/>
+                <img src={twitchicon} alt='twitch' className={styles.socialicon} onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://www.twitch.tv/ultropechenka_'
+                }}/>
+                <img src={boostyicon} alt='boosty' className={styles.socialicon} onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://boosty.to/ultropechenka_'
+                }}/>
+                <img src={telegramicon} alt='telegram' className={styles.socialicon} onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://t.me/ultropechenkattv'
+                }}/>
+                <img src={youtubeicon} alt='youtube' className={styles.socialicon} onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://www.youtube.com/@ultropechenka'
+                }}/>
+                <img src={vkicon} alt='vk' className={styles.socialicon} onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://vk.ru/ultropechenkattv?from=groups'
+                }}/>
             </div>
         </div>
     )
