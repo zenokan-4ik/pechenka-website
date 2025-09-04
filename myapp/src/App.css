@@ -6,8 +6,14 @@
 .App {
   text-align: center;
   font-family: "Comfortaa";
-  font-size: 5vw;
+  font-size: 1.4vw;
   min-width: 100vw;
+}
+
+@media screen and (max-width: 768px){
+  .App {
+    font-size: 5vw;
+  }
 }
 
 #root, body, html {
