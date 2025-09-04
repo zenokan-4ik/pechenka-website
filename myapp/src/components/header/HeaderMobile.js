@@ -50,7 +50,7 @@ const HeaderMobile = () => {
     return (
         <div>
             <header className={styles.wrapper}>
-                <img src={cookieicon} alt="Печенька)"/>
+                <img src={cookieicon} alt="Печенька)" className={styles.cookieicon}/>
                 <p style={{fontSize: '10vw'}}>Главная</p>
                 <img src={burgericon} alt="Меню" style={{marginRight: '4%', maxWidth: '10vw'}} onClick={() => {
                     setIsOpen(!isOpen)
