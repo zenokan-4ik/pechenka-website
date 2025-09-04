@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/pechenka-website/static/css/main.cb1fd170.css",
-    "main.js": "/pechenka-website/static/js/main.0c2c61b9.js",
-    "static/js/453.183908db.chunk.js": "/pechenka-website/static/js/453.183908db.chunk.js",
-    "static/media/art1.svg": "/pechenka-website/static/media/art1.3ebc7563d4f8bd8ac5534a84a581edb4.svg",
-    "static/media/sign.svg": "/pechenka-website/static/media/sign.7d16dbf42bf74e9b128777434762f2c5.svg",
-    "static/media/Comfortaa-Bold.ttf": "/pechenka-website/static/media/Comfortaa-Bold.b3043c8e18f8b1cf00a2.ttf",
-    "static/media/Comfortaa-Regular.ttf": "/pechenka-website/static/media/Comfortaa-Regular.ec692cbfabdea2e59cc3.ttf",
-    "static/media/cookie_icon.svg": "/pechenka-website/static/media/cookie_icon.7f5dac1cb423cf16df9157b28dd75fb7.svg",
-    "index.html": "/pechenka-website/index.html",
-    "static/media/burger_icon.svg": "/pechenka-website/static/media/burger_icon.58ecd64e3e0d1b47082da62b11700852.svg",
-    "main.cb1fd170.css.map": "/pechenka-website/static/css/main.cb1fd170.css.map",
-    "main.0c2c61b9.js.map": "/pechenka-website/static/js/main.0c2c61b9.js.map",
-    "453.183908db.chunk.js.map": "/pechenka-website/static/js/453.183908db.chunk.js.map"
+    "main.css": "/static/css/main.020717d9.css",
+    "main.js": "/static/js/main.0d9f107c.js",
+    "static/js/453.183908db.chunk.js": "/static/js/453.183908db.chunk.js",
+    "static/media/art1.svg": "/static/media/art1.3ebc7563d4f8bd8ac5534a84a581edb4.svg",
+    "static/media/sign.svg": "/static/media/sign.7d16dbf42bf74e9b128777434762f2c5.svg",
+    "static/media/Comfortaa-Bold.ttf": "/static/media/Comfortaa-Bold.b3043c8e18f8b1cf00a2.ttf",
+    "static/media/Comfortaa-Regular.ttf": "/static/media/Comfortaa-Regular.ec692cbfabdea2e59cc3.ttf",
+    "static/media/cookie_icon.svg": "/static/media/cookie_icon.7f5dac1cb423cf16df9157b28dd75fb7.svg",
+    "index.html": "/index.html",
+    "static/media/burger_icon.svg": "/static/media/burger_icon.58ecd64e3e0d1b47082da62b11700852.svg",
+    "main.020717d9.css.map": "/static/css/main.020717d9.css.map",
+    "main.0d9f107c.js.map": "/static/js/main.0d9f107c.js.map",
+    "453.183908db.chunk.js.map": "/static/js/453.183908db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb1fd170.css",
-    "static/js/main.0c2c61b9.js"
+    "static/css/main.020717d9.css",
+    "static/js/main.0d9f107c.js"
   ]
 }
