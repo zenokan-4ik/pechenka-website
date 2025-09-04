@@ -1,0 +1,35 @@
+{
+    "social": {
+        "text": "Соц сети",
+        "texts": [
+            "Twitch",
+            "Telegram",
+            "YouTube"
+        ],
+        "links": [
+            "https://www.twitch.tv/ultropechenka_",
+            "https://t.me/ultropechenkattv",
+            "https://www.youtube.com/@ultropechenka"
+        ]
+    },
+    "commikshi": {
+        "text": "Коммишки",
+        "texts": [
+            "Boosty",
+            "VK"
+        ],
+        "links": [
+            "https://boosty.to/ultropechenka_",
+            "https://vk.ru/ultropechenkattv?from=groups"
+        ]
+    },
+    "about": {
+        "text": "Обо мне",
+        "texts": [
+            "Лор"
+        ],
+        "links": [
+            "/lore"
+        ]
+    }
+}

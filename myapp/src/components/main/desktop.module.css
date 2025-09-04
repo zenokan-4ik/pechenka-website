@@ -1,0 +1,47 @@
+.wrapper {
+    margin-top: 3%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sign {
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
+.art {
+    height: max-content;
+}
+
+.artwrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.author {
+    margin-top: auto;
+    color: black;
+    text-align: left;
+    position: relative;
+    bottom: 0;
+}
+
+.text {
+    color: black;
+    text-align: left;
+    margin: 10px
+}
+
+.textwrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}

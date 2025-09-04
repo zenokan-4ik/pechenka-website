@@ -1,0 +1,30 @@
+.wrapper { 
+    width: 100%;
+    height: max-content;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--grad-color);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+img {
+    height: 45px;
+    margin: 0px 1%;
+}
+
+p {
+    color: white;
+}
+
+.linkswrapper {
+
+}
+
+.linkwrapper {
+
+}

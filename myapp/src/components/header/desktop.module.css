@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Comfortaa';
+    color: white;
+    font-size: 22px;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--grad-color);
+}
+
+img {
+    height: 45px;
+    margin: 0px 1%;
+}
+
+.linkswrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem
+}
+
+.link {
+    user-select: none;
+    cursor: pointer;
+}
+
+p {
+    padding: 5px;
+}

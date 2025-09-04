@@ -1,0 +1,21 @@
+:root {
+  --grad-color: #FF6EB4;
+  --grad-color: linear-gradient(90deg,rgba(255, 110, 180, 1) 0%, rgba(113, 200, 255, 1) 100%);
+}
+
+.App {
+  text-align: center;
+  font-family: "Comfortaa";
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url('./fonts/Comfortaa-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  font-weight: bold;
+  src: url('./fonts/Comfortaa-Bold.ttf');
+}

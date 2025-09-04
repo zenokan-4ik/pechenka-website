@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Comfortaa';
+    color: white;
+    font-size: 22px;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--grad-color);
+}
+
+img {
+    margin: 0px 1%;
+}
