@@ -4,6 +4,11 @@ import texts from '../../texts.json'
 
 import sign from '../../pictures/sign.svg'
 import art1 from '../../pictures/art1.svg'
+import twitchicon from '../../pictures/icons/twitch.svg'
+import boostyicon from '../../pictures/icons/boosty.svg'
+import telegramicon from '../../pictures/icons/telegram.svg'
+import youtubeicon from '../../pictures/icons/youtube.svg'
+import vkicon from '../../pictures/icons/vk.svg'
 
 const MainDesktop = () => {
     return (
@@ -32,6 +37,16 @@ const MainDesktop = () => {
                         {texts["author1"]}
                     </p>
                 </div>
+            </div>
+            <p className={styles.header}>
+                СОЦИАЛЬНЫЕ СЕТИ
+            </p>
+            <div className={styles.socialwrapper}>
+                <img src={twitchicon} alt='twitch' className={styles.socialicon}/>
+                <img src={boostyicon} alt='boosty' className={styles.socialicon}/>
+                <img src={telegramicon} alt='telegram' className={styles.socialicon}/>
+                <img src={youtubeicon} alt='youtube' className={styles.socialicon}/>
+                <img src={vkicon} alt='vk' className={styles.socialicon}/>
             </div>
         </div>
     )

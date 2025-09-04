@@ -45,3 +45,29 @@
     flex-direction: column;
     width: 40%;
 }
+
+.header {
+    background-image: var(--grad-color);
+    background-clip: text;
+    color: transparent;
+    font-size: 45px;
+}
+
+.socialwrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;    
+    justify-content: center;
+    margin-top: -5vh;
+}
+
+.socialicon {
+    height: 7rem;
+    cursor: pointer;
+    transition: height 200ms linear;
+}
+
+.socialicon:hover {
+    height: 9rem;
+    transition: height 200ms linear;
+}
