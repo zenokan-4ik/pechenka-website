@@ -6,7 +6,12 @@
 .App {
   text-align: center;
   font-family: "Comfortaa";
-  font-size: 30px;
+  font-size: 5vw;
+  min-width: 100vw;
+}
+
+#root, body, html {
+  min-width: 100vw;
 }
 
 @font-face {

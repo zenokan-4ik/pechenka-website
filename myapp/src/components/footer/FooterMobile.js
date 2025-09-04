@@ -3,12 +3,11 @@ import styles from './mobile.module.css'
 import data from './data.json'
 
 const FooterMobile = () => {
-
     return (
         <div className={styles.wrapper}>
             <div className={styles.linkswrapper}>
                 <div className={styles.linkwrapper}>
-                    <p className={styles.linkheader}>{data["commishki"].text}<div className="line" /></p>
+                    <p className={styles.linkheader}>{data["commishki"].text}</p>
                     {
                         data["commishki"].texts.map((obj, index) => 
                             <p className={styles.link} onClick={(e) => {
@@ -22,7 +21,7 @@ const FooterMobile = () => {
                 </div>
 
                 <div className={styles.linkwrapper}>
-                    <p className={styles.linkheader}>{data["about"].text}<div className="line" /></p>
+                    <p className={styles.linkheader}>{data["about"].text}</p>
                     {
                         data["about"].texts.map((obj, index) => 
                             <p className={styles.link} onClick={(e) => {

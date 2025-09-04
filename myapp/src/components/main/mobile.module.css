@@ -39,7 +39,7 @@
     background-image: var(--grad-color);
     background-clip: text;
     color: transparent;
-    font-size: 45px;
+    font-size: 10vw;
 }
 
 .social {
@@ -49,6 +49,6 @@
 }
 
 .socialicon {
-    height: calc(6rem + 5px);
+    height: 15vw;
     cursor: pointer;
 }
