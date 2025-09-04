@@ -1,0 +1,12 @@
+.wrapper {
+    margin-top: 5vh;
+    background-image: var(--grad-color);
+    text-align: left;
+}
+
+.linkswrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25vw;
+}

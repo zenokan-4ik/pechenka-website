@@ -19,3 +19,19 @@
   font-weight: bold;
   src: url('./fonts/Comfortaa-Bold.ttf');
 }
+
+.line {
+  margin: 0;
+  padding: 0;
+  max-height: 1px;
+  border: 1px #FFFFFF solid;
+  opacity: 0.5;
+}
+
+.linegrad {
+  margin: 0;
+  padding: 0;
+  height: 5px;
+  background: var(--grad-color);
+  opacity: 0.5;
+}

@@ -1,0 +1,54 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vh;
+}
+
+.text {
+    color: black;
+    width: 80vw;
+}
+
+.sign {
+    max-width: 80vw;
+    height: auto;
+}
+
+.artwrapper {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.art {
+    height: auto;
+    max-width: 80vw;
+}
+
+.author {
+    color: black;
+    text-align: left;
+    margin-top: 0;
+}
+
+
+.header {
+    background-image: var(--grad-color);
+    background-clip: text;
+    color: transparent;
+    font-size: 45px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.socialicon {
+    height: calc(6rem + 5px);
+    cursor: pointer;
+}

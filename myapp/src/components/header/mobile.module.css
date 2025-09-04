@@ -13,3 +13,23 @@
 img {
     margin: 0px 1%;
 }
+
+.menu {
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: height 200ms ease-in;
+}
+
+.menuopen {
+    height: max-content;
+    transition: height 200ms ease-in;
+}
+
+.menu p {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
