@@ -6,13 +6,13 @@ import LoreDesktop from '../components/lore/LoreDesktop'
 import ComDesktop from '../components/com/ComDesktop'
 import MainDesktop from '../components/main/MainDesktop'
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
 
 const Desktop = () => {
     const {page, toPage} = usePageStore()
 
     return (
-        <Router>
+        <HashRouter>
             <HeaderDesktop />
             <Routes>
                 <Route path='/' element={<MainDesktop />} />
@@ -20,7 +20,7 @@ const Desktop = () => {
                 <Route path='/commishki' element={<ComDesktop />} />
             </Routes>
             <FooterDesktop />
-        </Router>
+        </HashRouter>
     )
 }
 
