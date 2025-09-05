@@ -1,21 +1,24 @@
 .wrapper { 
-    width: 100%;
     height: max-content;
     position: relative;
     left: 0;
     bottom: 0;
     right: 0;
     background: var(--grad-color);
-    justify-content: space-between;
+    justify-content: left;
+    gap: 28vw;
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
     text-align: left;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 img {
-    height: 8vh;;
-    margin: 15px 1%;
+    width: 3vw;
+    height: auto;
+    margin: 0;
 }
 
 p {

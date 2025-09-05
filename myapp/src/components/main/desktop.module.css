@@ -13,7 +13,8 @@
 }
 
 .art {
-    min-height: 75vh;
+    min-height: auto;
+    width: 30vw;
 }
 
 .artwrapper {
@@ -62,7 +63,8 @@
 }
 
 .socialicon {
-    height: 7rem;
+    height: 6vw;
+    width: auto;
     cursor: pointer;
     transition: height 200ms linear;
 }

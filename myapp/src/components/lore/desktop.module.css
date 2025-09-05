@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 10vh;
+}
+
+.blockwrapper {
+    display: flex;
+    gap: 2rem;
+    width: 80vw;
+}
+
+.pic {
+    width: 38vw;
+    height: auto;
+    margin-right: -5vw;
+}
+
+.textwrapper {
+    text-align: left;
+    width: 40vw;
+    font-size: 3vh;
+    position: relative;
+}
+
+.text {
+    color: black;
+}
+
+.author {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+}

@@ -1,6 +1,6 @@
 import styles from './desktop.module.css'
 import data from './data.json'
-import cookieicon from '../../pictures/icons/cookie_icon.svg'
+import cookieicon from '../../pictures/icons/cookie_icon2.svg'
 
 const FooterDesktop = () => {
     return (

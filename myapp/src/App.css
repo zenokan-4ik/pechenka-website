@@ -18,6 +18,7 @@
 
 #root, body, html {
   min-width: 100vw;
+  overflow-x: hidden;
 }
 
 @font-face {

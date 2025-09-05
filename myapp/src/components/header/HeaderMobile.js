@@ -1,6 +1,6 @@
 import styles from './mobile.module.css'
 
-import cookieicon from '../../pictures/icons/cookie_icon.svg'
+import cookieicon from '../../pictures/icons/cookie_icon2.svg'
 import burgericon from '../../pictures/icons/burger_icon.svg'
 
 import { useEffect, useState, useRef } from 'react'
