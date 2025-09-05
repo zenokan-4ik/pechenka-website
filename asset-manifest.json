@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pechenka-website/static/css/main.26315d2e.css",
+    "main.css": "/pechenka-website/static/css/main.65b6f52d.css",
     "main.js": "/pechenka-website/static/js/main.9a5ad64b.js",
     "static/js/453.183908db.chunk.js": "/pechenka-website/static/js/453.183908db.chunk.js",
     "static/media/art1.svg": "/pechenka-website/static/media/art1.3ebc7563d4f8bd8ac5534a84a581edb4.svg",
@@ -16,12 +16,12 @@
     "index.html": "/pechenka-website/index.html",
     "static/media/boosty.svg": "/pechenka-website/static/media/boosty.15613ef6c7d73253dbb02193e2b42f14.svg",
     "static/media/burger_icon.svg": "/pechenka-website/static/media/burger_icon.58ecd64e3e0d1b47082da62b11700852.svg",
-    "main.26315d2e.css.map": "/pechenka-website/static/css/main.26315d2e.css.map",
+    "main.65b6f52d.css.map": "/pechenka-website/static/css/main.65b6f52d.css.map",
     "main.9a5ad64b.js.map": "/pechenka-website/static/js/main.9a5ad64b.js.map",
     "453.183908db.chunk.js.map": "/pechenka-website/static/js/453.183908db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26315d2e.css",
+    "static/css/main.65b6f52d.css",
     "static/js/main.9a5ad64b.js"
   ]
 }
