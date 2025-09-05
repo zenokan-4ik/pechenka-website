@@ -24,8 +24,8 @@
 }
 
 .art {
-    height: auto;
-    max-width: 80vw;
+    min-width: 80vw;
+    height: auto; 
 }
 
 .author {
