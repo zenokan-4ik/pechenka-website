@@ -4,8 +4,8 @@
     font-family: 'Comfortaa';
     color: white;
     font-size: 22vw;
-    justify-content: left;
-    gap: 10vw;
+    justify-content: center;
+    gap: 20vw;
     align-items: center;
     background: var(--grad-color);
     min-width: 100%;
@@ -42,5 +42,5 @@ img {
     color: black;
     font-weight: bold;
     margin-bottom: 10px;
-    font-size: 8vw;
+    font-size: 6vw;
 }

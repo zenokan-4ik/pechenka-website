@@ -10,6 +10,7 @@ import { navigateToRoute } from '../tools'
 const HeaderMobile = () => { 
     const [isOpen, setIsOpen] = useState(false)
     const menuRef = useRef(null);
+    const [render, setRender] = useState(true)
     
 
   useEffect(() => {
@@ -51,17 +52,23 @@ const HeaderMobile = () => {
         <div>
             <header className={styles.wrapper}>
                 <img src={cookieicon} alt="Печенька)" className={styles.cookieicon}/>
-                <p style={{fontSize: '10vw'}}>Главная</p>
+                <p style={{fontSize: '5vw', minWidth: '29vw'}}>
+                {
+                  window.location.href.split('/')[window.location.href.split('/').length-1]==='lore' ? 'Лор' :
+                  window.location.href.split('/')[window.location.href.split('/').length-1]==='' ? 'Главная' :
+                  window.location.href.split('/')[window.location.href.split('/').length-1]==='commishki' ? 'Коммишки':''
+                }
+                </p>
                 <img src={burgericon} alt="Меню" style={{marginRight: '4%', width: '15vw'}} onClick={() => {
                     setIsOpen(!isOpen)
                 }}/>
             </header>
             <div className={styles.menu} id='menu' ref={menuRef}>
-                <p onClick={() => {navigateToRoute('/')}}>Главная</p>
+                <p onClick={() => {navigateToRoute('/'); setRender(!render)}}>Главная</p>
                 <div className="linegrad" style={{width: '21vw'}} />
-                <p onClick={() => {navigateToRoute('/lore')}}>Лор</p>
+                <p onClick={() => {navigateToRoute('/lore'); setRender(!render)}}>Лор</p>
                 <div className="linegrad" style={{width: '12vw'}} />
-                <p onClick={() => {navigateToRoute('/comishki')}}>Коммишки</p>
+                <p onClick={() => {navigateToRoute('/commishki'); setRender(!render)}}>Коммишки</p>
                 <div className="linegrad" style={{width: '28vw'}} />
             </div>
         </div>
