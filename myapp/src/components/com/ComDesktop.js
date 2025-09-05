@@ -1,7 +1,7 @@
 import styles from './desktop.module.css'
 import texts from '../../texts.json'
 import { get_html } from '../tools'
-import ButtonMobile from '../button/ButtonMobile'
+import ButtonDesktop from '../button/ButtonDesktop'
 
 const ComDesktop = () => {
     return (
@@ -20,14 +20,14 @@ const ComDesktop = () => {
                     </div> 
                 ))
             }
-            <ButtonMobile 
+            <ButtonDesktop 
                 text={'Очередь заказов'}
                 callback={(e) => {
                     e.preventDefault()
                     window.location.href='https://docs.google.com/spreadsheets/d/1AndsBNF2sHGriUUGLvD1OTtfYfPdMS2nsDiGyn_5GZc/edit?usp=sharing'
                 }}
             />
-            <ButtonMobile 
+            <ButtonDesktop
                 text={'Сделать заказ'}
                 callback={(e) => {
                     e.preventDefault()

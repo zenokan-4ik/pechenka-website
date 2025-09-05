@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    font-size: 4vw;
+    gap: 3rem;
+}
+
+.header {
+    background: var(--grad-color);
+    background-clip: text;
+    color: transparent;
+    font-size: 5vw;
+}
+
+.text {
+    color: black;
+    margin: 3vh 0;
+}
+
+.headertext {
+    color: #FF6EB4;
+    font-size: 7vw;
+    margin: 0;
+}
+
+.description {
+    color: #71C8FF;
+    margin: 0;
+    margin-top: 4vh;
+}
+
+.textwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    align-items: center;
+}

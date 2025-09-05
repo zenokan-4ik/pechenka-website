@@ -25,7 +25,6 @@ function App() {
                 <Route path='/' element={isMobile ? <MainMobile /> : <MainDesktop />} />
                 <Route path='/lore' element={isMobile ? <LoreMobile /> : <LoreDesktop />} />
                 <Route path='/commishki' element={isMobile ? <ComMobile /> : <ComDesktop />} />
-                <Route path='/test' element={<Test />} />
             </Routes>
             {isMobile ? <FooterMobile /> : <FooterDesktop />}
         </HashRouter>

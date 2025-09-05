@@ -1,6 +1,6 @@
-import styles from './mobile.module.css'
+import styles from './desktop.module.css'
 
-const ButtonMobile = ({text, callback}) => {
+const ButtonDesktop = ({text, callback}) => {
     return (
         <div className={styles.wrapper} onClick={(e) => {
             callback(e)
@@ -10,4 +10,4 @@ const ButtonMobile = ({text, callback}) => {
     )
 }
 
-export default ButtonMobile
+export default ButtonDesktop
