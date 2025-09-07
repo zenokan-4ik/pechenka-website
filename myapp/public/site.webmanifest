@@ -1,5 +1,6 @@
 {
-  "name": "Ultro Pechenka",
+  "name": "UltroPechenka",
+  "short_name": "UltroPechenka",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
