@@ -24,7 +24,7 @@ const ComDesktop = () => {
                 text={'Очередь заказов'}
                 callback={(e) => {
                     e.preventDefault()
-                    window.location.href='https://docs.google.com/spreadsheets/d/1AndsBNF2sHGriUUGLvD1OTtfYfPdMS2nsDiGyn_5GZc/edit?usp=sharing'
+                    window.location.href='https://ru.yougile.com/board/04v0hz9ofcb3'
                 }}
             />
             <ButtonDesktop
